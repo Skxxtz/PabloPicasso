@@ -1,0 +1,611 @@
+/* Photographer */
+/*Logo1 - Active*/
+.logo1.active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: fill 2s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    display: block;
+}
+.logo1.active #path1 {
+    stroke-dasharray: 303.0879821777344px;
+    stroke-dashoffset: 303.0879821777344px;
+    animation: line-anim 2s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path2 {
+    stroke-dasharray: 360.3843994140625px;
+    stroke-dashoffset: 360.3843994140625px;
+    animation: line-anim 2s ease 0.3s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path3 {
+    stroke-dasharray: 376.4818115234375px;
+    stroke-dashoffset: 376.4818115234375px;
+    animation: line-anim 2s ease 0.6s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path4 {
+    stroke-dasharray: 229.25px;
+    stroke-dashoffset: 229.25px;
+    animation: line-anim 2s ease 0.9s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path5 {
+    stroke-dasharray: 376.4822082519531px;
+    stroke-dashoffset: 376.4822082519531px;
+    animation: line-anim 2s ease 1.2s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path6 {
+    stroke-dasharray: 424.5824279785156px;
+    stroke-dashoffset: 424.5824279785156px;
+    animation: line-anim 2s ease 1.5s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path7 {
+    stroke-dasharray: 373.28887939453125px;
+    stroke-dashoffset: 373.28887939453125px;
+    animation: line-anim 2s ease 1.8s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path8 {
+    stroke-dasharray: 331.18255615234375px;
+    stroke-dashoffset: 331.18255615234375px;
+    animation: line-anim 2s ease 2.1s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path9 {
+    stroke-dasharray: 303.0881652832031px;
+    stroke-dashoffset: 303.0881652832031px;
+    animation: line-anim 2s ease 2.4s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path10 {
+    stroke-dasharray: 360.3839416503906px;
+    stroke-dashoffset: 360.3839416503906px;
+    animation: line-anim 2s ease 2.7s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path11 {
+    stroke-dasharray: 318.7198791503906px;
+    stroke-dashoffset: 318.7198791503906px;
+    animation: line-anim 2s ease 3.0s;
+    animation-fill-mode: forwards;
+}
+.logo1.active #path12 {
+    stroke-dasharray: 373.2891540527344px;
+    stroke-dashoffset: 373.2891540527344px;
+    animation: line-anim 2s ease 3.3s;
+    animation-fill-mode: forwards;
+}
+/*Logo1 - Inctive*/
+.logo1.inactive {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: Nofill 1s ease;
+    animation-fill-mode: forwards;
+    
+}
+.logo1.inactive #path1 {
+    stroke-dasharray: 303.0879821777344px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path2 {
+    stroke-dasharray: 360.3843994140625px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path3 {
+    stroke-dasharray: 376.4818115234375px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path4 {
+    stroke-dasharray: 229.25px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path5 {
+    stroke-dasharray: 376.4822082519531px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path6 {
+    stroke-dasharray: 424.5824279785156px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path7 {
+    stroke-dasharray: 373.28887939453125px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path8 {
+    stroke-dasharray: 331.18255615234375px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path9 {
+    stroke-dasharray: 303.0881652832031px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path10 {
+    stroke-dasharray: 360.3839416503906px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path11 {
+    stroke-dasharray: 318.7198791503906px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo1.inactive #path12 {
+    stroke-dasharray: 373.2891540527344px;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+/*Logo1 - Start*/
+.logo1.start #path1 {
+    stroke-dasharray: 303.0879821777344px;
+    stroke-dashoffset: 303.0879821777344px;
+}
+.logo1.start #path2 {
+    stroke-dasharray: 360.3843994140625px;
+    stroke-dashoffset: 360.3843994140625px;
+}
+.logo1.start #path3 {
+    stroke-dasharray: 376.4818115234375px;
+    stroke-dashoffset: 376.4818115234375px;
+}
+.logo1.start #path4 {
+    stroke-dasharray: 229.25px;
+    stroke-dashoffset: 229.25px;
+}
+.logo1.start #path5 {
+    stroke-dasharray: 376.4822082519531px;
+    stroke-dashoffset: 376.4822082519531px;
+}
+.logo1.start #path6 {
+    stroke-dasharray: 424.5824279785156px;
+    stroke-dashoffset: 424.5824279785156px;
+}
+.logo1.start #path7 {
+    stroke-dasharray: 373.28887939453125px;
+    stroke-dashoffset: 373.28887939453125px;
+}
+.logo1.start #path8 {
+    stroke-dasharray: 331.18255615234375px;
+    stroke-dashoffset: 331.18255615234375px;
+}
+.logo1.start #path9 {
+    stroke-dasharray: 303.0881652832031px;
+    stroke-dashoffset: 303.0881652832031px;
+}
+.logo1.start #path10 {
+    stroke-dasharray: 360.3839416503906px;
+    stroke-dashoffset: 360.3839416503906px;
+}
+.logo1.start #path11 {
+    stroke-dasharray: 318.7198791503906px;
+    stroke-dashoffset: 318.7198791503906px;
+}
+.logo1.start #path12 {
+    stroke-dasharray: 373.2891540527344px;
+    stroke-dashoffset: 373.2891540527344px;
+}
+
+
+
+
+
+
+/*   Designer   */
+/*Logo2 - Start*/
+.logo2.start #path13 {
+    stroke-dasharray: 373.5638122558594;
+    stroke-dashoffset: 373.5638122558594px;
+}
+.logo2.start #path14 {
+    stroke-dasharray: 318.72308349609375px;
+    stroke-dashoffset: 318.72308349609375px;
+}
+.logo2.start #path15 {
+    stroke-dasharray: 326.0956115722656px;
+    stroke-dashoffset: 326.0956115722656px;
+}
+.logo2.start #path16 {
+    stroke-dasharray: 157.44007873535156px;
+    stroke-dashoffset: 157.44007873535156px;
+}
+.logo2.start #path17 {
+    stroke-dasharray: 415.4842834472656px;
+    stroke-dashoffset: 415.4842834472656px;
+}
+.logo2.start #path18 {
+    stroke-dasharray: 399.28460693359375px;
+    stroke-dashoffset: 399.28460693359375px;
+}
+.logo2.start #path19 {
+    stroke-dasharray: 318.72021484375px;
+    stroke-dashoffset: 318.72021484375px;
+}
+.logo2.start #path20 {
+    stroke-dasharray: 367.1096496582031px;
+    stroke-dashoffset: 367.1096496582031px;
+}
+/*Logo2 - Active*/
+.logo2.active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: fill 2s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 3.0s;
+    display: block;
+}
+.logo2.active #path13 {
+    stroke-dasharray: 373.5638122558594;
+    stroke-dashoffset: 373.5638122558594px;
+    animation: line-anim 2s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path14 {
+    stroke-dasharray: 318.72308349609375px;
+    stroke-dashoffset: 318.72308349609375px;
+    animation: line-anim 2s ease 0.3s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path15 {
+    stroke-dasharray: 326.0956115722656px;
+    stroke-dashoffset: 326.0956115722656px;
+    animation: line-anim 2s ease 0.6s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path16 {
+    stroke-dasharray: 157.44007873535156px;
+    stroke-dashoffset: 157.44007873535156px;
+    animation: line-anim 2s ease 0.9s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path17 {
+    stroke-dasharray: 415.4842834472656px;
+    stroke-dashoffset: 415.4842834472656px;
+    animation: line-anim 2s ease 1.2s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path18 {
+    stroke-dasharray: 399.28460693359375px;
+    stroke-dashoffset: 399.28460693359375px;
+    animation: line-anim 2s ease 1.5s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path19 {
+    stroke-dasharray: 318.72021484375px;
+    stroke-dashoffset: 318.72021484375px;
+    animation: line-anim 2s ease 1.8s;
+    animation-fill-mode: forwards;
+}
+.logo2.active #path20 {
+    stroke-dasharray: 367.1096496582031px;
+    stroke-dashoffset: 367.1096496582031px;
+    animation: line-anim 2s ease 2.1s;
+    animation-fill-mode: forwards;
+}
+/*Logo2 - Inactive*/
+.logo2.inactive {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: Nofill 1s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    
+}
+.logo2.inactive #path13 {
+    stroke-dasharray: 373.5638122558594;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path14 {
+    stroke-dasharray: 318.72308349609375px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path15 {
+    stroke-dasharray: 326.0956115722656px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path16 {
+    stroke-dasharray: 157.44007873535156px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path17 {
+    stroke-dasharray: 415.4842834472656px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path18 {
+    stroke-dasharray: 399.28460693359375px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path19 {
+    stroke-dasharray: 318.72021484375px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo2.inactive #path20 {
+    stroke-dasharray: 367.1096496582031px;
+    stroke-dashoffset: 0px;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+/*   Influencer   */
+/*Logo3 - Active*/
+.logo3.active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: fill 2s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 3.7s;
+    z-index: 1;
+    display: block;
+}
+.logo3.active #path21 {
+    stroke-dasharray: 157.44004821777344;
+    stroke-dashoffset: 157.44004821777344;
+    animation: line-anim 2s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path22 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 399.28460693359375;
+    animation: line-anim 2s ease 0.3s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path23 {
+    stroke-dasharray: 263.6160583496094;
+    stroke-dashoffset: 263.6160583496094;
+    animation: line-anim 2s ease 0.6s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path24 {
+    stroke-dasharray: 204.28807067871094;
+    stroke-dashoffset: 204.28807067871094;
+    animation: line-anim 2s ease 0.9s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path25 {
+    stroke-dasharray: 323.46234130859375;
+    stroke-dashoffset: 323.46234130859375;
+    animation: line-anim 2s ease 1.2s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path26 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 318.7200927734375px;
+    animation: line-anim 2s ease 1.5s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path27 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 399.28460693359375px;
+    animation: line-anim 2s ease 1.8s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path28 {
+    stroke-dasharray: 339.9349060058594;
+    stroke-dashoffset: 339.9349060058594;
+    animation: line-anim 2s ease 2.1s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path29 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 318.7200927734375;
+    animation: line-anim 2s ease 2.4s;
+    animation-fill-mode: forwards;
+}
+.logo3.active #path30 {
+    stroke-dasharray: 367.1098327636719;
+    stroke-dashoffset: 367.1098327636719;
+    animation: line-anim 2s ease 2.7s;
+    animation-fill-mode: forwards;
+}
+/*Logo3 - Inactive*/
+.logo3.inactive {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    fill: transparent;
+    animation: Nofill 1s ease;
+    animation-fill-mode: forwards;
+    
+}
+.logo3.inactive #path21 {
+    stroke-dasharray: 157.44004821777344;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path22 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path23 {
+    stroke-dasharray: 263.6160583496094;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path24 {
+    stroke-dasharray: 204.28807067871094;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path25 {
+    stroke-dasharray: 323.46234130859375;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path26 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path27 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path28 {
+    stroke-dasharray: 339.9349060058594;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path29 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+.logo3.inactive #path30 {
+    stroke-dasharray: 367.1098327636719;
+    stroke-dashoffset: 0;
+    animation: lineOut-anim 1s ease;
+    animation-fill-mode: forwards;
+}
+/*Logo2 - Start*/
+.logo3.start #path21 {
+    stroke-dasharray: 157.44004821777344;
+    stroke-dashoffset: 157.44004821777344;
+}
+.logo3.start #path22 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 399.28460693359375;
+}
+.logo3.start #path23 {
+    stroke-dasharray: 263.6160583496094;
+    stroke-dashoffset: 263.6160583496094;
+}
+.logo3.start #path24 {
+    stroke-dasharray: 204.28807067871094;
+    stroke-dashoffset: 204.28807067871094;
+}
+.logo3.start #path25 {
+    stroke-dasharray: 323.46234130859375;
+    stroke-dashoffset: 323.46234130859375;
+}
+.logo3.start #path26 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 318.7200927734375px;
+}
+.logo3.start #path27 {
+    stroke-dasharray: 399.28460693359375;
+    stroke-dashoffset: 399.28460693359375px;
+}
+.logo3.start #path28 {
+    stroke-dasharray: 339.9349060058594;
+    stroke-dashoffset: 339.9349060058594;
+}
+.logo3.start #path29 {
+    stroke-dasharray: 318.7200927734375;
+    stroke-dashoffset: 318.7200927734375;
+}
+.logo3.start #path30 {
+    stroke-dasharray: 367.1098327636719;
+    stroke-dashoffset: 367.1098327636719;
+}
+
+
+
+
+
+
+/* Animation for text */
+@keyframes lineOut-anim {
+    0% {
+        stroke: white
+    }
+    100% {
+        stroke: transparent;
+    }
+}
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0px;
+    }
+}
+@keyframes fill {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: white;
+    }
+}
+@keyframes Nofill {
+    0% {
+        fill: white;
+    }
+    99% {
+        fill: transparent;
+        display: block;
+        z-index: 1;
+    }
+    100%{
+        display: none;
+        z-index: -5;
+    }
+}

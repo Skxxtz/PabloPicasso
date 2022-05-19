@@ -1,0 +1,380 @@
+/*Main Declarations*/
+
+
+*{
+    background:#222222;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: overpass;
+    overflow-x: hidden;
+    z-index: 1;
+   
+    
+}
+svg{
+    background: transparent;
+}
+
+
+
+
+
+
+/*Front*/
+.Front{
+    height: 100vh;
+    width: 100vw;
+
+}
+/*Front Buttons*/
+.Front .round_button{
+    opacity: 1;
+    box-shadow: 0px 10px 10px black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 92vh;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    
+}
+.login{
+    width: 125px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background: transparent;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    right: 20;
+    top: 20;
+    cursor: pointer;
+
+}
+.svg1{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+/*Content*/
+.content{
+    height: 100vh;
+    width: 100vw;
+
+}
+.content .text{
+    width: 75vw;
+    height: 75vh;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 150vh;
+    transform: translate(0%, -50%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.text p.title{
+    font-size: 30px !important;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    
+}
+.text p{
+    background: transparent;
+    width: 450px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+
+}
+.target{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 200vh;
+}
+.target p{
+    width: 50vw;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+
+
+
+
+
+/*Login Section*/
+.login_section{
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    top: 300vh;
+    left: 0vw;
+
+}
+.logs{
+    overflow: hidden;
+    padding: 100px;
+    padding-top: 150;
+    width: 400px;
+    height: 150px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50vh;
+    left: calc(100vw - 320px);
+    transform: translate(-50%,-50%);
+    background: #fff;
+
+
+}
+.logs input{
+    background: transparent;
+    width: 200px ;
+    height: 50;
+    border-radius: 30px;
+    border: none;
+    color: #000;
+    text-align: center;
+    
+    font-size: 14px;
+}
+.logs .button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+}
+.form{
+    overflow: hidden;
+    width: 405px;
+    background: none;
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-auto-rows: 55px;
+}
+.logs hr{
+    width: 0px;
+    height: 2px;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    border: none;
+    transform: translate(-50%,0);
+}
+#LoginSubmit{
+    background:#222;
+    color: #fff;
+}
+.svg2{
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+    
+}
+.svg2 g path{
+    cursor: pointer;
+}
+.logs p{
+    opacity: 0;
+}
+.logs input:focus{
+    outline:none;
+}
+.logs input::placeholder{
+    color:#222;
+    font-size: 12;
+}
+.animation_login{
+    z-index: -1;
+    background: transparent;
+    padding-left: 200px;
+    color: #fff;
+    width: 600px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 20px;
+    transform: translate(0%,-50%);
+    font-size: 120px;
+    display: flex;
+}
+.animation_login p{
+    opacity: 0;
+    background: transparent;
+}
+@keyframes appear{
+    0%{opacity: 0;}
+    9%{opacity: 0;}
+    10%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+
+
+
+
+
+/* Footer*/
+.footer{
+    height: 60vh;
+    width: 100vw;
+    background: #222;
+    position: absolute;
+    top: 400vh;
+}
+.links{
+    position: relative;
+    top: 50px;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 55px;
+    line-height: 50px;
+    text-align: center;
+}
+.links li{
+    background-color: transparent;
+}
+.links li a{
+    font-size: 12px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+.title{
+    font-weight: bolder;
+    font-size: 16px !important;
+    background: transparent;
+}
+/*Footer Text*/
+#fotxt{display: block;
+    padding: 70px;
+    color: #fff;
+}
+#fotxt_grid_2{
+    display: grid;
+    grid-template-columns: 150px 500px;
+    grid-auto-rows: 50px;
+
+    padding: 70px;
+    color: #fff;
+}
+#fotxt .title, #fotxt_grid_2 .title{
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+}
+.subtitle{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.ulist{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*Registration*/
+#form_reg{
+    
+    position: absolute;
+    left: 150vw;
+    top: calc(50vh - 25px);
+    transform: translate(-50%,-50%);
+    width: 600;
+    height: 250;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px, 10px,50px,10px,50px,10px;
+    align-content: center;
+    padding: 100px;
+
+
+}
+#form_reg input{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: none;
+    text-align: center;
+    color: #fff;
+}
+#form_reg input:focus{
+    outline: none;
+}
+#form_reg hr{
+    width: 0px;
+    height: 2px;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    border: none;
+    transform: translate(-50%,0);
+    background: #fff;
+}
+#reg_button{
+    color: #000 !important;
+    background: #fff !important;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: calc(50vh + 130px);
+    left: 150vw;
+    transform: translate(-50%,-50%);
+}
+#reg_button:focus{
+    outline: none;
+}
+.svg4{
+    position: absolute;
+    top: 50px;
+    left: 105vw;
+}
+#agb{
+    font-size: 10px;
+    color: #fff;
+    position: absolute !important;
+    top: 52.45vh !important;
+    left: 270px !important;
+    transform: translate(-0,-50%);
+}
+
